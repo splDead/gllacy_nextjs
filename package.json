@@ -10,7 +10,7 @@
     "lint": "gulp lint",
     "test": "gulp test",
     "build": "npm run build-server && next build",
-    "start": "cross-env NODE_ENV=production node server-dist/server.js",
+    "start": "NODE_ENV=production node server-dist/server.js",
     "heroku-postbuild": "next build"
   },
   "repository": {
