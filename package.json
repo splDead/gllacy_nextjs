@@ -11,7 +11,7 @@
     "test": "gulp test",
     "build": "npm run build-server && next build",
     "start": "NODE_ENV=production node server-dist/server.js",
-    "heroku-postbuild": "next build"
+    "heroku-postbuild": "npm run build"
   },
   "repository": {
     "type": "git",
