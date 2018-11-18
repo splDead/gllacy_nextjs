@@ -1,21 +1,30 @@
-import Head from 'next/head'
-import { translate } from '../components/layout/i18n'
-import Layout from '../components/layout'
-import User from '../components/User'
-import AuthedApi from '../components/AuthedApi'
-import ReduxTest from '../components/ReduxTest'
-import { helper } from '../components/layout/i18n'
+import Head from 'next/head';
+import { translate } from '../components/layout/i18n';
+import Layout from '../components/layout';
 
-const Index = ({ t }) => (<article>
-  <Head>
-    <title>{t('this is home page!')}</title>
-  </Head>
-  <p>{t('this is home page!')}</p>
-  <p>{helper.currentLang}</p>
-  <User />
-  <hr />
-  <AuthedApi />
-  <ReduxTest />
-</article>)
+const Index = ({ t }) =>
+    <main>
+        <Head>
+            <title>{t('this is home page!')}</title>
+        </Head>
+        <section>
+            morozhenka
+        </section>
+        <section>
+            varenie and shoko
+        </section>
+        <section>
+            hits
+        </section>
+        <section>
+            o magaze
+        </section>
+        <section>
+            blog post
+        </section>
+        <section>
+            map
+        </section>
+    </main>;
 
-export default Layout(translate(['index'])(Index))
+export default Layout(translate(['index'])(Index));

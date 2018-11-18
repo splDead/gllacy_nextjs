@@ -1,4 +1,11 @@
 {
   "Home": "Home",
-  "About": "About"
+  "delivery": "Delivery",
+  "About": "About",
+  "mainMenuTitle": "Catalog",
+  "mainMenuNew": "New",
+  "mainMenuCreamy": "Creamy",
+  "mainMenuSherbet": "Sherbets",
+  "mainMenuFruitIce": "Fruit ice",
+  "mainMenuMelorin": "Melorin"
 }

@@ -32,11 +32,15 @@ class User extends Component {
             <div>
                 <p>
                     <label>username:</label>
-                    <input value={username} onChange={(e) => this.setState({ username: e.target.value })} />
+                    <input
+                        value={username}
+                        onChange={(e) => this.setState({ username: e.target.value })} />
                 </p>
                 <p>
                     <label>password:</label>
-                    <input value={password} onChange={(e) => this.setState({ password: e.target.value })} />
+                    <input
+                        value={password}
+                        onChange={(e) => this.setState({ password: e.target.value })} />
                 </p>
                 <p>
                     <button onClick={this.login}>login</button>

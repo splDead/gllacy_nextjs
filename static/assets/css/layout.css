@@ -1,0 +1,6 @@
+.layout-positioner {
+    margin: 0 auto;
+    width: 1200px;
+    padding: 10px 27px 0;
+    box-sizing: border-box;
+}

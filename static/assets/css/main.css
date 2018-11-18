@@ -1,0 +1,8 @@
+@import 'layout.css';
+@import 'header.css';
+@import 'menu.css';
+
+body {
+    margin: 0;
+    padding: 0;
+}

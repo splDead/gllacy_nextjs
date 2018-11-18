@@ -4,16 +4,25 @@ import wrapper from './wrapper';
 import Header from './Header';
 import Footer from './Footer';
 
+import './../../static/assets/css/main.css';
+
 const layout = (Page) => wrapper(class Layout extends React.Component {
+
+    state = {
+        background: '#849d8f'
+    };
+
     render() {
         return (
-            <div>
-                <Head>
-                    <meta name='viewport' content='width=device-width, initial-scale=1'/>
-                </Head>
-                <Header/>
-                <Page {...this.props} />
-                <Footer/>
+            <div style={{ backgroundColor: this.state.background }}>
+                <div className='layout-positioner'>
+                    <Head>
+                        <meta name='viewport' content='width=device-width, initial-scale=1'/>
+                    </Head>
+                    <Header/>
+                    <Page {...this.props} />
+                    <Footer/>
+                </div>
             </div>
         )
     }

@@ -1,10 +1,10 @@
 export default () => (
-  <div>
-    <style jsx>{`
-      p {
-        color: red;
-      }
+    <div>
+        <style jsx>{`
+            p {
+                color: red;
+            }
     `}</style>
-    <p>Hello World!</p>
-  </div>
+        <p>Hello World!</p>
+    </div>
 )
